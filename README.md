@@ -10,7 +10,7 @@ It includes:
 ---
 
 ## Project Structure 
-```
+
 
 trading-strategy-freqtrade/
 ├─ strategies/ # Trading strategy Python files
@@ -20,9 +20,7 @@ trading-strategy-freqtrade/
 ├─ requirements.txt
 ├─ README.md
 └─ .gitignore
-
----
-
+```
 ## Trading Strategies
 
 Located in `strategies/`
@@ -69,12 +67,11 @@ streamlit run streamlit_dashboard/app.py
 ```
 
 You can either:
-Upload backtest / hyperopt files via the sidebar, or
-
-Place them in:
-user_data/backtest_results/
-user_data/hyperopt_results/
-
+- Upload backtest / hyperopt files via the sidebar, or
+- Place them in:
+  - `user_data/backtest_results/`
+  - `user_data/hyperopt_results/`
+  - 
 ---
 
 ## Results & Screenshots
@@ -88,12 +85,16 @@ user_data/hyperopt_results/
 ### Backtest Summary (2023–2024)
 [View backtest report (PDF)](backtest_results/2023_24_backtest.pdf)
 
-Requirements:
-Main dependencies (dashboard):
+## Requirements
+
+Main dashboard dependencies:
+
+```txt
 streamlit
 pandas
 numpy
 plotly
+```
 
 Freqtrade installation is handled separately following the official documentation.
 
