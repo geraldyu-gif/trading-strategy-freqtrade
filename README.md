@@ -95,6 +95,7 @@ plotly
 Freqtrade installation is handled separately following the official documentation.
 
 Notes:
+
 No API keys or private data are included
 
 Large datasets are intentionally excluded
@@ -102,6 +103,7 @@ Large datasets are intentionally excluded
 This repository focuses on strategy design, testing, and analysis, not live trading
 
 Future Improvements:
+
 Walk-forward analysis
 
 Additional risk metrics
