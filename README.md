@@ -65,13 +65,13 @@ The Streamlit app allows interactive analysis of:
 ```bash
 pip install -r requirements.txt
 streamlit run streamlit_dashboard/app.py
+```
+
 You can either:
 Upload backtest / hyperopt files via the sidebar, or
 
 Place them in:
-
 user_data/backtest_results/
-
 user_data/hyperopt_results/
 
 ---
