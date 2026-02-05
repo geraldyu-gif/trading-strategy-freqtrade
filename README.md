@@ -9,7 +9,8 @@ It includes:
 
 ---
 
-## Project Structure
+## Project Structure 
+```
 
 trading-strategy-freqtrade/
 ├─ strategies/ # Trading strategy Python files
