@@ -10,7 +10,7 @@ It includes:
 ---
 
 ## Project Structure 
-
+```
 
 trading-strategy-freqtrade/
 ├─ strategies/ # Trading strategy Python files
@@ -20,7 +20,7 @@ trading-strategy-freqtrade/
 ├─ requirements.txt
 ├─ README.md
 └─ .gitignore
-```
+
 ## Trading Strategies
 
 Located in `strategies/`
@@ -35,8 +35,6 @@ The strategies are designed for **long-only trading** and use:
 - Market regime filtering
 - Risk management via stoploss and ROI rules
 
----
-
 ## Backtesting
 
 Backtests were run using **Freqtrade** on multiple historical datasets, including:
@@ -48,8 +46,6 @@ Summary results are saved as **PDFs / screenshots** in:
 backtest_results/
 
 > Full raw backtest data is intentionally excluded to keep the repository lightweight and reproducible.
-
----
 
 ## Streamlit Dashboard
 
@@ -71,7 +67,7 @@ You can either:
 - Place them in:
   - `user_data/backtest_results/`
   - `user_data/hyperopt_results/`
-  - 
+    
 ---
 
 ## Results & Screenshots
